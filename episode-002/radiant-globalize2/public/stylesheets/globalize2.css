@@ -1,0 +1,21 @@
+#globalize #index {
+  float: right;
+  margin: 5px 50px 5px 0; }
+  #globalize #index img {
+    border: 2px solid #666;
+    padding: 2px; }
+  #globalize #index a img {
+    border: 2px solid #FFF; }
+    #globalize #index a img:hover {
+      border: 2px solid #666; }
+#globalize #edit {
+  margin: 5px 0; }
+  #globalize #edit img {
+    border: 2px solid #666;
+    padding: 2px; }
+  #globalize #edit a img {
+    border: 2px solid #F5F1E2; }
+    #globalize #edit a img:hover {
+      border: 2px solid #666; }
+  #globalize #edit span.not-translated {
+    font-weight: bold; }
