@@ -1,5 +1,7 @@
+RADIANT_GEM_VERSION='0.9.0'
+
 # Be sure to restart your server when you modify this file
-RADIANT_GEM_VERSION = "0.8.1"
+
 # Uncomment below to force Rails into production mode when
 # you don't control web/app server and can't set it the proper way
 # ENV['RAILS_ENV'] ||= 'production'
@@ -12,20 +14,20 @@ require 'radius'
 Radiant::Initializer.run do |config|
   # Skip frameworks you're not going to use (only works if using vendor/rails).
   # To use Rails without a database, you must remove the Active Record framework
-  config.frameworks -= [ :action_mailer ]
+  # config.frameworks -= [ :action_mailer ]
 
   # Only load the extensions named here, in the order given. By default all
   # extensions in vendor/extensions are loaded, in alphabetical order. :all
   # can be used as a placeholder for all extensions not explicitly named.
-  config.extensions = [ :paperclipped, :globalize2, :globalize2_paperclipped, :all ]
+  # config.extensions = [ :all ]
 
   # Your secret key for verifying cookie session data integrity.
   # If you change this key, all old sessions will become invalid!
   # Make sure the secret is at least 30 characters and all random,
   # no regular words or you'll be exposed to dictionary attacks.
   config.action_controller.session = {
-    :session_key => '_radiant-globalize2-compatibility_session',
-    :secret      => '8cf65af84728d99f9cc20b4079070acee324c22f'
+    :session_key => '_radiant-mailer_session',
+    :secret      => '44137c3f0006a19a8507a32d8904df0c163d32a9'
   }
 
   # Comment out this line if you want to turn off all caching, or
@@ -63,7 +65,7 @@ Radiant::Initializer.run do |config|
   # Set the default field error proc
   config.action_view.field_error_proc = Proc.new do |html, instance|
     if html !~ /label/
-      %{<div class="error-with-field">#{html} <small class="error">&bull; #{[instance.error_message].flatten.first}</small></div>}
+      %{<span class="error-with-field">#{html} <span class="error">&bull; #{[instance.error_message].flatten.first}</span></span>}
     else
       html
     end
@@ -76,3 +78,6 @@ Radiant::Initializer.run do |config|
     end
   end
 end
+
+Haml::Template.options[:format] = :html5
+Haml::Template.options[:ugly] = true if ENV['RAILS_ENV'] == 'production'
