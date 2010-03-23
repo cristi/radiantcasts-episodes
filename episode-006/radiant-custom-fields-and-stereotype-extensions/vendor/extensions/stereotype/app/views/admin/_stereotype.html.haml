@@ -1,0 +1,3 @@
+%p
+  = f.label :stereotype, "Stereotype"  
+  = f.select :stereotype, [['<none>', '']] + @stereotypes.map { |s| [s, s] }
