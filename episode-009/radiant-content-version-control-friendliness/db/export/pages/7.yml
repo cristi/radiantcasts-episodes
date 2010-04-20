@@ -1,0 +1,21 @@
+--- !ruby/object:Page 
+attributes: 
+  slug: styles.css
+  class_name: 
+  virtual: f
+  updated_at: 2010-04-20 12:16:37
+  title: Styles
+  updated_by_id: 
+  breadcrumb: Styles
+  lock_version: "0"
+  id: "7"
+  created_by_id: "1"
+  description: 
+  status_id: "100"
+  published_at: 2010-04-20 15:16:37
+  parent_id: "1"
+  layout_id: "2"
+  created_at: 2010-04-20 12:16:37
+  keywords: 
+attributes_cache: {}
+

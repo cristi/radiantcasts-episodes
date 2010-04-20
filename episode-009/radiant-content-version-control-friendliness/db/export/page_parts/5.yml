@@ -1,0 +1,11 @@
+--- !ruby/object:PagePart 
+attributes: 
+  name: body
+  filter_id: Textile
+  page_id: "5"
+  id: "5"
+  content: |
+    This post uses "textile":http://www.textism.com/tools/textile/.
+
+attributes_cache: {}
+

@@ -1,0 +1,21 @@
+--- !ruby/object:Page 
+attributes: 
+  slug: second-post
+  class_name: 
+  virtual: f
+  updated_at: 2010-04-20 12:16:37
+  title: Second Post
+  updated_by_id: 
+  breadcrumb: Second Post
+  lock_version: "0"
+  id: "6"
+  created_by_id: "1"
+  description: 
+  status_id: "100"
+  published_at: 2006-06-10 00:00:00
+  parent_id: "4"
+  layout_id: 
+  created_at: 2010-04-20 12:16:37
+  keywords: 
+attributes_cache: {}
+

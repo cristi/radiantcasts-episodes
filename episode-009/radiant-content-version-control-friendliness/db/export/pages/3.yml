@@ -1,0 +1,21 @@
+--- !ruby/object:Page 
+attributes: 
+  slug: rss
+  class_name: 
+  virtual: f
+  updated_at: 2010-04-20 12:16:36
+  title: RSS Feed
+  updated_by_id: 
+  breadcrumb: RSS Feed
+  lock_version: "0"
+  id: "3"
+  created_by_id: "1"
+  description: 
+  status_id: "100"
+  published_at: 2010-04-20 15:16:36
+  parent_id: "1"
+  layout_id: "3"
+  created_at: 2010-04-20 12:16:36
+  keywords: 
+attributes_cache: {}
+

@@ -1,0 +1,15 @@
+--- !ruby/object:Layout 
+attributes: 
+  name: XML Feed
+  content_type: text/xml
+  updated_at: 2010-04-20 12:16:37
+  updated_by_id: 
+  lock_version: "0"
+  id: "3"
+  created_by_id: "1"
+  content: |
+    <r:content />
+
+  created_at: 2010-04-20 12:16:37
+attributes_cache: {}
+

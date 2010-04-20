@@ -1,0 +1,11 @@
+--- !ruby/object:PagePart 
+attributes: 
+  name: body
+  filter_id: Markdown
+  page_id: "6"
+  id: "6"
+  content: |
+    This post uses **Markdown**.
+
+attributes_cache: {}
+

@@ -1,0 +1,13 @@
+--- 
+layout_name: <inherit> [Normal]
+class_name: ArchivePage
+slug: articles
+virtual: false
+title: Articles
+updated_by_id: 
+breadcrumb: Articles
+created_by_id: 1
+description: 
+published_at: 2010-04-20 15:16:36 Z
+status_id: 100
+keywords: 

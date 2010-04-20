@@ -1,0 +1,5 @@
+--- !ruby/object:SchemaMigration 
+attributes: 
+  version: "20081203140407"
+attributes_cache: {}
+

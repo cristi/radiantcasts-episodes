@@ -1,0 +1,9 @@
+--- !ruby/object:PagePart 
+attributes: 
+  name: body
+  filter_id: Textile
+  page_id: "9"
+  id: "10"
+  content: This is just an example of how Radiant can be used to power a Weblog.
+attributes_cache: {}
+

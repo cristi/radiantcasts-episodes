@@ -1,0 +1,12 @@
+--- !ruby/object:PagePart 
+attributes: 
+  name: sidebar
+  filter_id: Textile
+  page_id: "9"
+  id: "11"
+  content: |-
+    h3. Contact Me
+    
+    List your contact information here.
+attributes_cache: {}
+

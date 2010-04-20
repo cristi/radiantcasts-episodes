@@ -1,0 +1,21 @@
+--- !ruby/object:FileNotFoundPage 
+attributes: 
+  slug: file-not-found
+  class_name: FileNotFoundPage
+  virtual: t
+  updated_at: 2010-04-20 12:16:36
+  title: File Not Found
+  updated_by_id: 
+  breadcrumb: File Not Found
+  lock_version: "0"
+  id: "2"
+  created_by_id: "1"
+  description: 
+  status_id: "100"
+  published_at: 2010-04-20 15:16:36
+  parent_id: "1"
+  layout_id: 
+  created_at: 2010-04-20 12:16:36
+  keywords: 
+attributes_cache: {}
+

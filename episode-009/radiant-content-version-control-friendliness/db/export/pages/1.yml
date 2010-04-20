@@ -1,0 +1,21 @@
+--- !ruby/object:Page 
+attributes: 
+  slug: /
+  class_name: 
+  virtual: f
+  updated_at: 2010-04-20 12:16:36
+  title: Home Page
+  updated_by_id: 
+  breadcrumb: Home
+  lock_version: "0"
+  id: "1"
+  created_by_id: "1"
+  description: 
+  status_id: "100"
+  published_at: 2010-04-20 15:16:36
+  parent_id: 
+  layout_id: "1"
+  created_at: 2010-04-20 12:16:36
+  keywords: 
+attributes_cache: {}
+
