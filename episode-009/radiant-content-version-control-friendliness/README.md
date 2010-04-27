@@ -1,6 +1,6 @@
 This is [episode 9][rce] of Radiantcasts.
 
-You'll see how to use how to add portability and version control friendliness to your Radiant CMS content using [Radiant Import Export Extension][rie], [Radiant Super Export Extension][rse] or [Radiant File System Extension][rfs].
+You'll see how to use and how to add portability and version control friendliness to your Radiant CMS content using [Radiant Import Export Extension][rie], [Radiant Super Export Extension][rse] or [Radiant File System Extension][rfs].
 
 Login using "admin" as username and "radiant" as password
 
