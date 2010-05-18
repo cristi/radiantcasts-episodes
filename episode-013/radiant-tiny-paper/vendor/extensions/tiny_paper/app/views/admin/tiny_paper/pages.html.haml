@@ -1,0 +1,12 @@
+#tiny_paper
+  #top.pages_list
+    %ul.clearfix
+      %li= link_to "Files", files_path
+      %li= link_to "Pages", pages_path, :class => "selected"
+    %p Choose a page to create a direct link to it:
+  #hd
+    #content_files
+      #assets
+        %ul
+          = page_list (@homepage)
+  = hidden_field_tag(:type, 'pages')

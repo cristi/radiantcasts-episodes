@@ -1,0 +1,35 @@
+#tiny_paper
+  #top.clearfix
+    .left
+      - form_tag({}, {:id => "filter_form", :method => :get}) do
+        %table
+          %tr
+            %td
+              %label{:for => 'title'} Filter:
+          %tr
+            %td
+              #filter
+                = text_field_tag :title, list_params[:title], :autocomplete => 'off'
+                :javascript
+                  new Form.Element.DelayedObserver('title', 0.4, function(element, value) {
+                    when_starting();
+                    new Ajax.Updater('ajax_update', '/admin/tiny_paper/images', {
+                      asynchronous:true,
+                      evalScripts:true,
+                      method:'get',
+                      onComplete: function(request){when_completing()},
+                      parameters: 'title=' + escape(value) + '&page=1' + '&authenticity_token=' + encodeURIComponent('#{form_authenticity_token}')
+                    })
+                  })
+                = reset_filters_tag
+            %td
+              %img{:id => "spinner", :style => "display:none", :src => "/images/admin/spinner.gif", :alt => "loading"}
+    .right
+      = render :partial => "upload"
+    
+  = show_flash_message
+
+  #bd.clearfix
+    = render :partial => 'images_images' if list_params[:view] == "thumbnails"
+    = render :partial => 'images_titles' if list_params[:view] == "text_list"
+  = hidden_field_tag(:type, "images")
