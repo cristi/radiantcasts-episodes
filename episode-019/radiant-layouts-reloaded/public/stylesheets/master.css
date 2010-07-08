@@ -1,0 +1,27 @@
+#container {
+  width: 950px;
+  margin: 0 auto;
+  overflow: hidden;
+  display: inline-block; }
+  #container {
+    display: block; }
+  #container #left-column {
+    float: left;
+    width: 630px;
+    margin-right: 19px;
+    border-right: 1px solid #000;
+    overflow: hidden;
+    display: inline-block; }
+    #container #left-column {
+      display: block; }
+    #container #left-column #description {
+      float: left;
+      width: 300px;
+      margin-right: 19px;
+      border-right: 1px solid #000; }
+    #container #left-column #ads {
+      float: left;
+      width: 300px; }
+  #container #right-column {
+    width: 300px;
+    float: left; }

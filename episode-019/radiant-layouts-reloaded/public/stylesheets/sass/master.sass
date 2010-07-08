@@ -1,0 +1,40 @@
+=has-layout
+  :display inline-block
+  &
+    :display block
+
+=clearfix
+  :overflow hidden
+  +has-layout
+
+=pie-clearfix
+  &:after
+    :content " "
+    :display block
+    :height 0
+    :clear both
+    :overflow hidden
+    :visibility hidden
+  +has-layout
+
+#container
+  :width 950px
+  :margin 0 auto
+  +clearfix
+  #left-column
+    :float left
+    :width 630px
+    :margin-right 19px
+    :border-right 1px solid #000
+    +clearfix
+    #description
+      :float left
+      :width 300px
+      :margin-right 19px
+      :border-right 1px solid #000
+    #ads
+      :float left
+      :width 300px
+  #right-column
+    :width 300px
+    :float left
