@@ -1,0 +1,27 @@
+=has-layout
+  :display inline-block
+  &
+    :display block
+
+=clearfix
+  &:after
+    :content " "
+    :display block
+    :height 0
+    :clear both
+    :overflow hidden
+    :visibility hidden
+  +has-layout
+
+#page
+  width: 980px
+  margin: 0 auto
+
+#main
+  +clearfix
+  #content-wrapper
+    float: left
+    width: 700px
+  #sidebar-wrapper
+    float: left
+    width: 280px

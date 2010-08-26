@@ -1,0 +1,21 @@
+#page {
+  width: 980px;
+  margin: 0 auto; }
+
+#main {
+  display: inline-block; }
+  #main:after {
+    content: " ";
+    display: block;
+    height: 0;
+    clear: both;
+    overflow: hidden;
+    visibility: hidden; }
+  #main {
+    display: block; }
+  #main #content-wrapper {
+    float: left;
+    width: 700px; }
+  #main #sidebar-wrapper {
+    float: left;
+    width: 280px; }
