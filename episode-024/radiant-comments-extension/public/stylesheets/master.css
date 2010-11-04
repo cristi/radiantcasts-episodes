@@ -1,0 +1,64 @@
+tbody, tfoot, thead, tr, ul, li, div, p {
+  margin: 0;
+  padding: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  font-family: inherit;
+  vertical-align: baseline; }
+
+th, td {
+  margin: 0;
+  padding: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  font-family: inherit;
+  vertical-align: baseline;
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle; }
+
+table {
+  margin: 0;
+  padding: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  font-family: inherit;
+  vertical-align: baseline;
+  border-collapse: separate;
+  border-spacing: 0;
+  vertical-align: middle; }
+
+ol, ul {
+  list-style: none; }
+
+#page {
+  width: 980px;
+  margin: 0 auto; }
+
+#main {
+  display: inline-block; }
+  #main:after {
+    content: " ";
+    display: block;
+    height: 0;
+    clear: both;
+    overflow: hidden;
+    visibility: hidden; }
+  #main {
+    display: block; }
+  #main #header h1 {
+    font-size: 20px; }
+  #main #content-wrapper {
+    float: left;
+    width: 680px;
+    margin-right: 20px; }
+    #main #content-wrapper .blog-post {
+      border: 1px solid #aaa;
+      margin-bottom: 10px;
+      padding: 10px; }
+  #main #sidebar-wrapper {
+    float: left;
+    width: 280px; }
