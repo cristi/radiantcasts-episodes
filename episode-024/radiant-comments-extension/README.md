@@ -4,5 +4,5 @@ Part two of Radiant As A Blog, where you'll see how to use and configure the [Co
 
 Login using "admin" as username and "radiant" as password
 
-[rce]:http://radiantcms.org/blog/archives/2010/11/4/radiantcasts-episode-24-radiant-as-a-blog-part-2-adding-comments
+[rce]:http://radiantcms.org/blog/archives/2010/11/04/radiantcasts-episode-24-radiant-as-a-blog-part-2-adding-comments/
 [ce]:https://github.com/saturnflyer/radiant-comments
