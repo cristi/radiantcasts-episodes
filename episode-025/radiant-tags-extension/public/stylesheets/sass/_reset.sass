@@ -1,0 +1,39 @@
+=reset-box-model
+  margin: 0
+  padding: 0
+
+=reset
+  +reset-box-model
+  font:
+    weight: inherit
+    style: inherit
+    size: 100%
+    family: inherit
+  vertical-align: baseline
+
+=reset-table-cell
+  +reset
+  text-align: left
+  font-weight: normal
+  vertical-align: middle
+
+=reset-table
+  +reset
+  border-collapse: separate
+  border-spacing: 0
+  vertical-align: middle
+
+=reset-list-style
+  list-style: none
+  
+tbody, tfoot, thead, tr, ul, li, div, p
+  +reset
+
+th, td
+  +reset-table-cell
+
+table
+  +reset-table
+
+ol, ul
+  +reset-list-style

@@ -1,0 +1,30 @@
+=has-layout
+  :display inline-block
+  &
+    :display block
+
+=clearfix
+  &:after
+    :content " "
+    :display block
+    :height 0
+    :clear both
+    :overflow hidden
+    :visibility hidden
+  +has-layout
+  
+=sticky-footer
+  html, body
+    height: 100%
+  #page
+    clear: both
+    min-height: 100%
+    height: auto !important
+    height: 100%
+    margin-bottom: -70px
+    #fake_footer
+      height: 70px
+  #footer
+    clear: both
+    position: relative
+    height: 70px
